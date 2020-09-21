@@ -10,7 +10,7 @@ namespace training
         public void display()
         {
             int i, j, count = 1, number;
-            Console.Write("Enter number of rows:");
+            Console.Write("Enter number of rows  ");
             number = int.Parse(Console.ReadLine());
             count = number - 1;
             for (j = 1; j <= number; j++)
